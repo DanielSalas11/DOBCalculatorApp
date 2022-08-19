@@ -8,6 +8,7 @@
     android:orientation="vertical"
     android:background="@color/bgColor"
     android:gravity="center_horizontal"
+    android:padding="16dp"
     >
 
     <TextView
@@ -19,5 +20,36 @@
         android:textSize="25sp"
         android:textStyle="bold"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
+        android:textColor="@color/textBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:backgroundTint="@color/btnBgColor"
+        android:textColor="@color/black"
+        />
+
 
 </LinearLayout>
